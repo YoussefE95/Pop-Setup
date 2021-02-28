@@ -1,6 +1,6 @@
 These are the files for my Pop_OS! setup. 
 
-install.sh: installs vs-code, spotify, discord, tutanota, mozillavpn, ranger, tweaks, and copies all setting files
+install.sh: installs vs-code, spotify, discord, tutanota, dropbox, ranger, tweaks, and copies all setting files
 
 Fonts are Iosevka (https://github.com/be5invis/iosevka)
 

@@ -118,6 +118,7 @@ fi
 
 alias update='sudo apt update && sudo apt upgrade && sudo apt autoremove && flatpak update'
 alias rang='source ranger'
+alias vpn='expressvpn'
 alias sql='mysql -u younix -p'
 alias docker='sudo docker'
 alias mongodb='sudo docker exec -it mongodb bash'
