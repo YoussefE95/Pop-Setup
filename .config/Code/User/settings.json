@@ -1,0 +1,14 @@
+{
+    "workbench.colorTheme": "Base16 Eighties Dark",
+    "window.menuBarVisibility": "toggle",
+    "workbench.statusBar.visible": false,
+    "workbench.activityBar.visible": false,
+    "editor.minimap.enabled": false,
+    "editor.fontFamily": "'Iosevka'",
+    "editor.fontSize": 16,
+    "editor.detectIndentation": false,
+	"editor.insertSpaces": false,
+	"workbench.startupEditor": "newUntitledFile",
+	"editor.formatOnSave": true
+	
+}
