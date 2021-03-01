@@ -12,6 +12,10 @@ sudo rsync -a iosevka /usr/share/fonts/truetype
 # remove top headerbar on the terminal
 gsettings set org.gnome.Terminal.Legacy.Settings headerbar false
 
+# install firefox gnome theme
+git clone https://github.com/rafaelmardojai/firefox-gnome-theme/ ~/.config/firefox-gnome-theme && cd ~/.config/firefox-gnome-theme
+./scripts/install.sh
+
 # set colors to base16 tomorrow night
 git clone https://github.com/aaron-williamson/base16-gnome-terminal.git ~/.config/base16-gnome-terminal
 cd ~/.config/base16-gnome-terminal/color-scripts
