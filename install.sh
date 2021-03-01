@@ -3,7 +3,7 @@ sudo apt update && sudo apt upgrade && sudo apt autoremove && flatpak update
 
 # install usual apps
 sudo apt install ranger neofetch htop cmatrix default-jdk gconf2 gnome-tweak-tool code
-flatpak install flathub com.tutanota.Tutanota com.dropbox.Client com.discordapp.Discord com.spotify.Client
+flatpak install flathub com.tutanota.Tutanota com.discordapp.Discord com.spotify.Client
 
 # copy all dot files
 rsync -a .bashrc .config ~/
