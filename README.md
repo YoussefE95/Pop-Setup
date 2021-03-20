@@ -4,10 +4,10 @@ install.sh: installs vs-code, spotify, discord, tutanota, todoist, ranger, tweak
 
 Fonts are Iosevka (https://github.com/be5invis/iosevka)
 
-The terminal and vs-code themes are Base16 Eighties (http://chriskempson.com/projects/base16/)
+The terminal and vs-code themes are Gruvbox
 
-https://github.com/aaron-williamson/base16-gnome-terminal.git has every Base16 theme for the gnome terminal
+Every Base16 theme, including all Gruvbox variants, for the gnome terminal --> (https://github.com/aaron-williamson/base16-gnome-terminal.git)
 
-https://marketplace.visualstudio.com/items?itemName=AndrsDC.base16-themes has every base16 theme for vs code
+All Gruvbox variants for vs code --> (https://marketplace.visualstudio.com/items?itemName=jdinhlife.gruvbox)
 
-https://github.com/rafaelmardojai/firefox-gnome-theme is a really clean firefox theme to blend better with gnome
+Clean firefox theme than blends better with gnome --> https://github.com/rafaelmardojai/firefox-gnome-theme
