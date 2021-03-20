@@ -16,7 +16,8 @@ gsettings set org.gnome.Terminal.Legacy.Settings headerbar false
 git clone https://github.com/rafaelmardojai/firefox-gnome-theme/ ~/.config/firefox-gnome-theme && cd ~/.config/firefox-gnome-theme
 ./scripts/install.sh
 
-# set colors to base16 tomorrow night
+# install gruvbox light/dark themes
 git clone https://github.com/aaron-williamson/base16-gnome-terminal.git ~/.config/base16-gnome-terminal
 cd ~/.config/base16-gnome-terminal/color-scripts
-./base16-eighties-256.sh
+./base16-gruvbox-dark-medium-256.sh
+./base16-gruvbox-light-hard-256.sh
