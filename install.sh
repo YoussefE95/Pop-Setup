@@ -7,7 +7,6 @@ flatpak install flathub com.tutanota.Tutanota com.discordapp.Discord com.spotify
 
 # copy all dot files
 rsync -a .bashrc .config ~/
-sudo rsync -a iosevka /usr/share/fonts/truetype
 
 # remove top headerbar on the terminal
 gsettings set org.gnome.Terminal.Legacy.Settings headerbar false
