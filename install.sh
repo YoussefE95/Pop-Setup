@@ -6,7 +6,7 @@ sudo apt install ranger neofetch htop cmatrix default-jdk gconf2 gnome-tweak-too
 flatpak install flathub com.tutanota.Tutanota com.discordapp.Discord com.spotify.Client com.todoist.Todoist
 
 # copy all dot files
-rsync -a .bashrc .config ~/
+rsync -a .bashrc .config .icons ~/
 
 # remove top headerbar on the terminal
 gsettings set org.gnome.Terminal.Legacy.Settings headerbar false
