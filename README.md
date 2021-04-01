@@ -1,13 +1,13 @@
-These are the files for my Pop_OS! setup
+These are the files for my PopOS setup 
 
-install.sh: installs vs-code, spotify, discord, tutanota, todoist, ranger, tweaks, and copies all setting files
+[Regolith](https://regolith-linux.org/) brings i3wm to ubuntu and ubuntu-based distros
 
-The icons are Newaita --> https://github.com/cbrnix/Newaita
+install.sh: installs regolith, vs-code, spotify, discord, tutanota, todoist, ranger, tweaks, and copies all setting files
 
-The terminal and vs-code themes are Gruvbox
+The themes can be set by typing 'dark' or 'light' into the terminal and are based on [Gruvbox](https://github.com/morhetz/gruvbox)
 
-Every Base16 theme, including all Gruvbox variants, for the gnome terminal --> https://github.com/aaron-williamson/base16-gnome-terminal.git
+The icons are [Newaita](https://github.com/cbrnix/Newaita)
 
-All Gruvbox variants for vs code --> https://marketplace.visualstudio.com/items?itemName=jdinhlife.gruvbox
+[Here's](https://marketplace.visualstudio.com/items?itemName=jdinhlife.gruvbox) all Gruvbox variants for vs code
 
-Clean firefox theme that blends better with gnome --> https://github.com/rafaelmardojai/firefox-gnome-theme
+[Firefox theme](https://github.com/rafaelmardojai/firefox-gnome-theme) that blends better with gnome

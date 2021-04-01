@@ -125,3 +125,6 @@ alias mongodb='sudo docker exec -it mongodb bash'
 alias mongostart='sudo docker start mongodb'
 alias mongostop='sudo docker stop mongodb'
 alias eclipse='cd ~/.eclipse && ./eclipse &'
+
+alias dark='regolith-look set gruvbox && regolith-look refresh'
+alias light='regolith-look set gruvbox-light && regolith-look refresh'
