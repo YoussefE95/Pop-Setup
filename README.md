@@ -4,7 +4,7 @@ These are the files for my PopOS setup
 
 install.sh: installs regolith, vs-code, spotify, discord, tutanota, todoist, ranger, tweaks, and copies all setting files
 
-The themes can be set by typing 'dark' or 'light' into the terminal and are based on [Gruvbox](https://github.com/morhetz/gruvbox)
+The themes are based on [Gruvbox](https://github.com/morhetz/gruvbox) and can be set by typing 'dark' or 'light' into the terminal
 
 The icons are [Newaita](https://github.com/cbrnix/Newaita)
 
