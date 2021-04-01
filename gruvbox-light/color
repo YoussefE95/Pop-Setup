@@ -1,5 +1,5 @@
 ! Gruvbox-Light colors - https://github.com/morhetz/gruvbox
-#define color_base03   #fbf1c7
+#define color_base03   #f9f5d7
 #define color_base02   #ebdbb2
 #define color_base01   #d5c4a1
 #define color_base00   #bdae93
