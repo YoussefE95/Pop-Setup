@@ -120,6 +120,10 @@ blur-background-exclude = [
     "window_type = 'desktop'"
 ];
 
+opacity-rule = [
+	"100:class_g = 'Firefox' && fullscreen"
+];
+
 # Dim inactive windows. (0.0 - 1.0)
 # inactive-dim = 0.03;
 # Do not let dimness adjust based on window opacity.
