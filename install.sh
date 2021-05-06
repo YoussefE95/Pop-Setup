@@ -15,7 +15,3 @@ sudo mv init /usr/share/regolith-compositor/
 
 # remove top headerbar on the terminal
 gsettings set org.gnome.Terminal.Legacy.Settings headerbar false
-
-# install firefox gnome theme
-git clone https://github.com/rafaelmardojai/firefox-gnome-theme/ ~/.config/firefox-gnome-theme && cd ~/.config/firefox-gnome-theme
-./scripts/install.sh
