@@ -119,12 +119,21 @@ fi
 alias update='sudo apt update && sudo apt upgrade && sudo apt autoremove && flatpak update'
 alias rang='source ranger'
 alias vpn='expressvpn'
-alias sql='mysql -u younix -p'
+alias py='python3'
 alias docker='sudo docker'
-alias mongodb='sudo docker exec -it mongodb bash'
-alias mongostart='sudo docker start mongodb'
-alias mongostop='sudo docker stop mongodb'
+alias mongodb='docker exec -it mongodb bash'
+alias mongostart='docker start mongodb'
+alias mongostop='docker stop mongodb'
 alias eclipse='cd ~/.eclipse && ./eclipse &'
 
-alias dark='regolith-look set gruvbox && regolith-look refresh'
-alias light='regolith-look set gruvbox-light && regolith-look refresh'
+# dark windows and dark background
+alias gruv-lo-wall="echo 'gnome.wallpaper: /home/younix/Dropbox/Pictures/Wallpapers/Gruvbox-Dark/'$(ls /home/younix/Dropbox/Pictures/Wallpapers/Gruvbox-Dark | shuf -n 1) > ~/.config/regolith/Xresources"
+alias gruv-lo='regolith-look set gruvbox && gruv-lo-wall && regolith-look refresh'
+
+# dark windows and brighter background
+alias gruv-me-wall="echo 'gnome.wallpaper: /home/younix/Dropbox/Pictures/Wallpapers/Gruvbox-Med/'$(ls /home/younix/Dropbox/Pictures/Wallpapers/Gruvbox-Med | shuf -n 1) > ~/.config/regolith/Xresources"
+alias gruv-me='regolith-look set gruvbox && gruv-me-wall && regolith-look refresh'
+
+# light windows and bright background
+alias gruv-hi-wall="echo 'gnome.wallpaper: /home/younix/Dropbox/Pictures/Wallpapers/Gruvbox-Light/'$(ls /home/younix/Dropbox/Pictures/Wallpapers/Gruvbox-Light | shuf -n 1) > ~/.config/regolith/Xresources"
+alias gruv-hi='regolith-look set gruvbox-light && gruv-hi-wall && regolith-look refresh'
