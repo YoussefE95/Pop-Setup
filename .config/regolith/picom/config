@@ -109,9 +109,8 @@ inactive-opacity-override = false;
 
 blur:
 {
-  method = "gaussian";
-  size = 20;
-  deviation = 20.0;
+  method = "box";
+  size = 35;
 };
 
 blur-background-fixed = false;
