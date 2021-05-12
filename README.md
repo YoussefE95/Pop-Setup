@@ -2,7 +2,8 @@ These are the files for my PopOS setup
 * [Regolith](https://regolith-linux.org/) brings i3wm to ubuntu and ubuntu-based distros
 * install.sh: installs regolith, vs-code, spotify, discord, tutanota, todoist, ranger, tweaks, and copies all setting files
 
-There's two light/dark color themes and can be set through the terminal by typing:
+
+There's two light/dark color themes which can be set through the terminal:
 * [Gruvbox](https://github.com/morhetz/gruvbox)
   * [All variants](https://marketplace.visualstudio.com/items?itemName=jdinhlife.gruvbox) for vs code
   * Icons are [Newaita](https://github.com/cbrnix/Newaita)
@@ -20,5 +21,6 @@ There's two light/dark color themes and can be set through the terminal by typin
     * one-lo
     * one-me
     * one-hi
+
 
 I got the Regolith gruvbox theme from [this](https://github.com/regolith-linux/regolith-styles) repository where there's many other regolith themes. For gruvbox-light, I simply copied gruvbox and changed the colors
