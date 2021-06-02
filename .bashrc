@@ -131,27 +131,27 @@ alias settime="echo 'i3xrocks.date.format2: %A, %B %d, %I:%M %p' >> .Xresources-
 # Gruvbox
 # dark windows and dark background
 alias gruv-lo-wall="echo 'gnome.wallpaper: /home/younix/Dropbox/Pictures/Wallpapers/Gruvbox-Dark/'$(ls /home/younix/Dropbox/Pictures/Wallpapers/Gruvbox-Dark | shuf -n 1) > ~/.config/regolith/Xresources"
-alias gruv-lo='regolith-look set gruvbox && gruv-lo-wall && regolith-look refresh'
+alias gruv-lo='regolith-look set gruvbox && gruv-lo-wall && settime && regolith-look refresh'
 
 # dark windows and brighter background
 alias gruv-me-wall="echo 'gnome.wallpaper: /home/younix/Dropbox/Pictures/Wallpapers/Gruvbox-Med/'$(ls /home/younix/Dropbox/Pictures/Wallpapers/Gruvbox-Med | shuf -n 1) > ~/.config/regolith/Xresources"
-alias gruv-me='regolith-look set gruvbox && gruv-me-wall && regolith-look refresh'
+alias gruv-me='regolith-look set gruvbox && gruv-me-wall && settime && regolith-look refresh'
 
 # light windows and bright background
 alias gruv-hi-wall="echo 'gnome.wallpaper: /home/younix/Dropbox/Pictures/Wallpapers/Gruvbox-Light/'$(ls /home/younix/Dropbox/Pictures/Wallpapers/Gruvbox-Light | shuf -n 1) > ~/.config/regolith/Xresources"
-alias gruv-hi='regolith-look set gruvbox-light && gruv-hi-wall && regolith-look refresh'
+alias gruv-hi='regolith-look set gruvbox-light && gruv-hi-wall && settime && regolith-look refresh'
 # End Gruvbox
 
 # One Dark/Light
 # dark windows and dark background
 alias one-lo-wall="echo 'gnome.wallpaper: /home/younix/Dropbox/Pictures/Wallpapers/One-Dark/'$(ls /home/younix/Dropbox/Pictures/Wallpapers/One-Dark | shuf -n 1) > ~/.config/regolith/Xresources"
-alias one-lo='regolith-look set onedark && one-lo-wall && regolith-look refresh'
+alias one-lo='regolith-look set onedark && one-lo-wall && settime && regolith-look refresh'
 
 # dark windows and brighter background
 alias one-me-wall="echo 'gnome.wallpaper: /home/younix/Dropbox/Pictures/Wallpapers/One-Med/'$(ls /home/younix/Dropbox/Pictures/Wallpapers/One-Med | shuf -n 1) > ~/.config/regolith/Xresources"
-alias one-me='regolith-look set onedark && one-me-wall && regolith-look refresh'
+alias one-me='regolith-look set onedark && one-me-wall && settime && regolith-look refresh'
 
 # light windows and bright background
 alias one-hi-wall="echo 'gnome.wallpaper: /home/younix/Dropbox/Pictures/Wallpapers/One-Light/'$(ls /home/younix/Dropbox/Pictures/Wallpapers/One-Light | shuf -n 1) > ~/.config/regolith/Xresources"
-alias one-hi='regolith-look set onelight && one-hi-wall && regolith-look refresh'
+alias one-hi='regolith-look set onelight && one-hi-wall && settime && regolith-look refresh'
 # End One Dark/Light
