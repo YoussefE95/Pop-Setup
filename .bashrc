@@ -124,7 +124,9 @@ alias docker='sudo docker'
 alias mongodb='docker exec -it mongodb bash'
 alias mongostart='docker start mongodb'
 alias mongostop='docker stop mongodb'
-alias eclipse='cd ~/.eclipse && ./eclipse &'
+
+# set time format for Regolith
+alias settime="echo 'i3xrocks.date.format2: %A, %B %d, %I:%M %p' >> .Xresources-regolith"
 
 # Gruvbox
 # dark windows and dark background
