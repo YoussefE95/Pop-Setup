@@ -125,6 +125,9 @@ alias mongodb='docker exec -it mongodb bash'
 alias mongostart='docker start mongodb'
 alias mongostop='docker stop mongodb'
 
+# set discord css to gruvbox
+alias disc-gruv="py -m beautifuldiscord --css ~/.config/beautdisc/gruvbox.css"
+
 # set time format for Regolith
 alias settime="echo 'i3xrocks.date.format2: %A, %B %d, %I:%M %p' >> .Xresources-regolith"
 
