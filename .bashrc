@@ -127,6 +127,8 @@ alias mongostop='docker stop mongodb'
 
 # set discord css to gruvbox
 alias disc-gruv="py -m beautifuldiscord --css ~/.config/beautdisc/gruvbox.css"
+# set discord css to one dark/light
+alias disc-one="py -m beautifuldiscord --css ~/.config/beautdisc/one.css"
 
 # set vs code theme to dark gruvbox
 alias code-gruv-dark='sed -i '"'"'s/.*workbench.colorTheme.*/"workbench.colorTheme": "Gruvbox Dark Medium",/'"'"' ~/.config/Code/User/settings.json'
