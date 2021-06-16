@@ -128,33 +128,42 @@ alias mongostop='docker stop mongodb'
 # set discord css to gruvbox
 alias disc-gruv="py -m beautifuldiscord --css ~/.config/beautdisc/gruvbox.css"
 
-# set time format for Regolith
-alias settime="echo 'i3xrocks.date.format2: %A, %B %d, %I:%M %p' >> .Xresources-regolith"
+# set vs code theme to dark gruvbox
+alias code-gruv-dark='sed -i '"'"'s/.*workbench.colorTheme.*/"workbench.colorTheme": "Gruvbox Dark Medium",/'"'"' ~/.config/Code/User/settings.json'
+# set vs code theme to light gruvbox
+alias code-gruv-light='sed -i '"'"'s/.*workbench.colorTheme.*/"workbench.colorTheme": "Gruvbox Light Hard",/'"'"' ~/.config/Code/User/settings.json'
+# set vs code theme to one dark
+alias code-one-dark='sed -i '"'"'s/.*workbench.colorTheme.*/"workbench.colorTheme": "One Dark Pro",/'"'"' ~/.config/Code/User/settings.json'
+# set vs code theme to one light
+alias code-one-light='sed -i '"'"'s/.*workbench.colorTheme.*/"workbench.colorTheme": "Atom One Light",/'"'"' ~/.config/Code/User/settings.json'
 
-# Gruvbox
+# set time format for Regolith
+alias settime="echo 'i3xrocks.date.format2: %A, %B %d, %I:%M %p' >> ~/.Xresources-regolith"
+
+# ---- Gruvbox ----
 # dark windows and dark background
 alias gruv-lo-wall="echo 'gnome.wallpaper: /home/younix/Dropbox/Pictures/Wallpapers/Gruvbox-Dark/'$(ls /home/younix/Dropbox/Pictures/Wallpapers/Gruvbox-Dark | shuf -n 1) > ~/.config/regolith/Xresources"
-alias gruv-lo='regolith-look set gruvbox && gruv-lo-wall && settime && regolith-look refresh'
+alias gruv-lo='regolith-look set gruvbox && gruv-lo-wall && code-gruv-dark && settime && regolith-look refresh'
 
 # dark windows and brighter background
 alias gruv-me-wall="echo 'gnome.wallpaper: /home/younix/Dropbox/Pictures/Wallpapers/Gruvbox-Med/'$(ls /home/younix/Dropbox/Pictures/Wallpapers/Gruvbox-Med | shuf -n 1) > ~/.config/regolith/Xresources"
-alias gruv-me='regolith-look set gruvbox && gruv-me-wall && settime && regolith-look refresh'
+alias gruv-me='regolith-look set gruvbox && gruv-me-wall && code-gruv-dark && settime && regolith-look refresh'
 
 # light windows and bright background
 alias gruv-hi-wall="echo 'gnome.wallpaper: /home/younix/Dropbox/Pictures/Wallpapers/Gruvbox-Light/'$(ls /home/younix/Dropbox/Pictures/Wallpapers/Gruvbox-Light | shuf -n 1) > ~/.config/regolith/Xresources"
-alias gruv-hi='regolith-look set gruvbox-light && gruv-hi-wall && settime && regolith-look refresh'
-# End Gruvbox
+alias gruv-hi='regolith-look set gruvbox-light && gruv-hi-wall && code-gruv-light && settime && regolith-look refresh'
+# ---- End Gruvbox ----
 
-# One Dark/Light
+# ---- One Dark/Light ----
 # dark windows and dark background
 alias one-lo-wall="echo 'gnome.wallpaper: /home/younix/Dropbox/Pictures/Wallpapers/One-Dark/'$(ls /home/younix/Dropbox/Pictures/Wallpapers/One-Dark | shuf -n 1) > ~/.config/regolith/Xresources"
-alias one-lo='regolith-look set onedark && one-lo-wall && settime && regolith-look refresh'
+alias one-lo='regolith-look set onedark && one-lo-wall && code-one-dark && settime && regolith-look refresh'
 
 # dark windows and brighter background
 alias one-me-wall="echo 'gnome.wallpaper: /home/younix/Dropbox/Pictures/Wallpapers/One-Med/'$(ls /home/younix/Dropbox/Pictures/Wallpapers/One-Med | shuf -n 1) > ~/.config/regolith/Xresources"
-alias one-me='regolith-look set onedark && one-me-wall && settime && regolith-look refresh'
+alias one-me='regolith-look set onedark && one-me-wall && code-one-dark && settime && regolith-look refresh'
 
 # light windows and bright background
 alias one-hi-wall="echo 'gnome.wallpaper: /home/younix/Dropbox/Pictures/Wallpapers/One-Light/'$(ls /home/younix/Dropbox/Pictures/Wallpapers/One-Light | shuf -n 1) > ~/.config/regolith/Xresources"
-alias one-hi='regolith-look set onelight && one-hi-wall && settime && regolith-look refresh'
-# End One Dark/Light
+alias one-hi='regolith-look set onelight && one-hi-wall && code-one-light && settime && regolith-look refresh'
+# ---- End One Dark/Light ----
