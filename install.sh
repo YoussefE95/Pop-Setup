@@ -5,7 +5,7 @@ sudo apt update && sudo apt upgrade && sudo apt autoremove && flatpak update
 sudo add-apt-repository ppa:regolith-linux/release
 
 # install regolith and usual apps
-sudo apt install regolith-desktop-standard i3xrocks-battery i3xrocks-bluetooth i3xrocks-memory i3xrocks-temp i3xrocks-wifi ranger neofetch htop cmatrix default-jdk gconf2 gnome-tweak-tool code python3-pip
+sudo apt install regolith-desktop-standard i3xrocks-battery i3xrocks-bluetooth i3xrocks-memory i3xrocks-temp i3xrocks-wifi fonts-materialdesignicons-webfont ranger neofetch htop cmatrix default-jdk gconf2 gnome-tweak-tool code python3-pip
 flatpak install flathub com.tutanota.Tutanota com.spotify.Client com.todoist.Todoist
 
 # install beautiful discord
