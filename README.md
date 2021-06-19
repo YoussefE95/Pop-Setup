@@ -1,3 +1,5 @@
+![screenshot of dark themes](DarkScreens.png)
+
 These are the files for my PopOS setup 
 * [Regolith](https://regolith-linux.org/) brings i3wm to ubuntu and ubuntu-based distros
 * install.sh: installs regolith, vs-code, spotify, tutanota, todoist, ranger, tweaks, and copies all setting files
