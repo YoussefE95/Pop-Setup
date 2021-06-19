@@ -1,6 +1,6 @@
 These are the files for my PopOS setup 
 * [Regolith](https://regolith-linux.org/) brings i3wm to ubuntu and ubuntu-based distros
-* install.sh: installs regolith, vs-code, spotify, discord, tutanota, todoist, ranger, tweaks, and copies all setting files
+* install.sh: installs regolith, vs-code, spotify, tutanota, todoist, ranger, tweaks, and copies all setting files
 
 
 There's two light/dark color themes which can be set through the terminal:
@@ -23,5 +23,6 @@ There's two light/dark color themes which can be set through the terminal:
     * one-hi
 
 Discord is themed using [BeautifulDiscord](https://github.com/leovoel/BeautifulDiscord) and the css files can be found in ~/.config/beautdisc/
+* Note: make sure to get the debian discord and not flatpak, not sure why BeautifulDiscord doesn't work with the flatpak install
 
 I got the Regolith gruvbox theme from [this](https://github.com/regolith-linux/regolith-styles) repository where there's many other regolith themes. For gruvbox-light, I simply copied gruvbox and changed the colors
