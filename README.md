@@ -22,7 +22,7 @@ There's two light/dark color themes which can be set through the terminal:
     * one-me
     * one-hi
 
+I got the Regolith gruvbox theme from [this](https://github.com/regolith-linux/regolith-styles) repository where there's many other regolith themes. For gruvbox-light, I simply copied gruvbox and changed the colors
+
 Discord is themed using [BeautifulDiscord](https://github.com/leovoel/BeautifulDiscord) and the css files can be found in ~/.config/beautdisc/
 * Note: make sure to get the debian discord and not flatpak, not sure why BeautifulDiscord doesn't work with the flatpak install
-
-I got the Regolith gruvbox theme from [this](https://github.com/regolith-linux/regolith-styles) repository where there's many other regolith themes. For gruvbox-light, I simply copied gruvbox and changed the colors
