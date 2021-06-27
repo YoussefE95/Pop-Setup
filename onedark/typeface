@@ -1,10 +1,10 @@
-! Typeface: Fira Mono
-#define typeface_bar_glyph  Fira Mono Medium 13
-#define typeface_wm         pango:Fira Mono Medium 13
-#define typeface_bar        pango:Fira Mono Medium 13, Material Design Icons 13
-#define typeface_rofi       Fira Mono Medium 16
-#define typeface_terminal   Fira Mono:pixelsize=16:antialias=true:autohint=true
-#define typeface_gnome_terminal Fira Mono Medium 12
+! Typeface: JetBrains Mono
+#define typeface_bar_glyph  JetBrains Mono Medium 11.5
+#define typeface_wm         pango:JetBrains Mono Medium 11.5
+#define typeface_bar        pango:JetBrains Mono Medium 11.5, Material Design Icons 13
+#define typeface_rofi       JetBrains Mono Medium 14
+#define typeface_terminal   JetBrains Mono:pixelsize=11.5:antialias=true:autohint=true
+#define typeface_gnome_terminal JetBrains Mono 11.5
 
 #define typeface_bar_glyph_battery_0 
 #define typeface_bar_glyph_battery_100 
