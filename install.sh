@@ -18,7 +18,7 @@ sudo mv gotop /usr/local/bin/
 
 # copy all dot files and regolith looks
 rsync -a .bashrc .config .icons .themes ~/
-sudo mv gruvbox gruvbox-light onedark onelight /etc/regolith/styles/
+sudo mv gruvbox gruvbox-light onedark onelight dracula /etc/regolith/styles/
 sudo mv init /usr/share/regolith-compositor/
 
 # remove top headerbar on the terminal

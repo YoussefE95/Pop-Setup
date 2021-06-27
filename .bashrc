@@ -138,6 +138,8 @@ alias code-gruv-light='sed -i '"'"'s/.*workbench.colorTheme.*/"workbench.colorTh
 alias code-one-dark='sed -i '"'"'s/.*workbench.colorTheme.*/"workbench.colorTheme": "One Dark Pro",/'"'"' ~/.config/Code/User/settings.json'
 # set vs code theme to one light
 alias code-one-light='sed -i '"'"'s/.*workbench.colorTheme.*/"workbench.colorTheme": "Atom One Light",/'"'"' ~/.config/Code/User/settings.json'
+# set vs code theme to dracula
+alias code-drac='sed -i '"'"'s/.*workbench.colorTheme.*/"workbench.colorTheme": "Dracula",/'"'"' ~/.config/Code/User/settings.json'
 
 # set time format for Regolith
 alias settime="echo 'i3xrocks.date.format2: %A, %B %d, %I:%M %p' >> ~/.Xresources-regolith"
@@ -169,3 +171,8 @@ alias one-me='regolith-look set onedark && one-me-wall && code-one-dark && setti
 alias one-hi-wall="echo 'gnome.wallpaper: /home/younix/Dropbox/Pictures/Wallpapers/One-Light/'$(ls /home/younix/Dropbox/Pictures/Wallpapers/One-Light | shuf -n 1) > ~/.config/regolith/Xresources"
 alias one-hi='regolith-look set onelight && one-hi-wall && code-one-light && settime && regolith-look refresh'
 # ---- End One Dark/Light ----
+
+# ---- Dracula ----
+alias drac-wall="echo 'gnome.wallpaper: /home/younix/Dropbox/Pictures/Wallpapers/Dracula/'$(ls /home/younix/Dropbox/Pictures/Wallpapers/Dracula | shuf -n 1) > ~/.config/regolith/Xresources"
+alias drac='regolith-look set dracula && drac-wall && code-drac && settime && regolith-look refresh'
+# ---- End Dracula ----
