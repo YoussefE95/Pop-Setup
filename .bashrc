@@ -126,7 +126,7 @@ alias mongostart='docker start mongodb'
 alias mongostop='docker stop mongodb'
 
 # set regolith theme, vs-code theme, and random wallpaper
-alias rego="py -m RegoSet"
+alias rego="py RegoSet.py"
 
 # set discord css to gruvbox
 alias disc-gruv="py -m beautifuldiscord --css ~/.config/beautdisc/gruvbox.css"
