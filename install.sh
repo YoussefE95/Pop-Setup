@@ -12,3 +12,6 @@ sudo mv gotop /usr/local/bin/
 
 # copy config files
 rsync -a .bashrc .config ~/
+
+# install regolith and themes
+git clone http://github.com/YoussefE95/RegoSet ~/Downloads/RegoSet && cd ~/Downloads/RegoSet && ./install.sh
