@@ -116,6 +116,9 @@ if ! shopt -oq posix; then
   fi
 fi
 
+# set python path
+export PYTHONPATH=/home/younix/.local/lib/python3.8/site-packages
+
 alias update='sudo apt update && sudo apt upgrade && sudo apt autoremove && flatpak update'
 alias rang='source ranger'
 alias vpn='expressvpn'
@@ -125,10 +128,10 @@ alias mongodb='docker exec -it mongodb bash'
 alias mongostart='docker start mongodb'
 alias mongostop='docker stop mongodb'
 
-# set regolith theme, vs-code theme, and random wallpaper
-alias rego="py RegoSet.py"
-
 # set discord css to gruvbox
 alias disc-gruv="py -m beautifuldiscord --css ~/.config/beautdisc/gruvbox.css"
 # set discord css to one dark/light
 alias disc-one="py -m beautifuldiscord --css ~/.config/beautdisc/one.css"
+
+# set regolith theme, vs-code theme, and random wallpaper
+alias rego="py $PYTHONPATH/RegoSet.py"
