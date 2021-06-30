@@ -117,7 +117,7 @@ if ! shopt -oq posix; then
 fi
 
 # set python path
-export PYTHONPATH=/home/younix/.local/lib/python3.8/site-packages
+export PYTHONPATH=/home/younix/.py
 
 alias update='sudo apt update && sudo apt upgrade && sudo apt autoremove && flatpak update'
 alias rang='source ranger'
