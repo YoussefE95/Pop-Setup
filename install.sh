@@ -16,5 +16,8 @@ python3 -m pip install -U https://github.com/leovoel/BeautifulDiscord/archive/ma
 # copy config files
 rsync -a .bashrc .config ~/
 
+# create PYTHONPATH directory
+mkdir ~/.py
+
 # install regolith and themes
 git clone http://github.com/YoussefE95/RegoLook ~/Downloads/RegoLook && cd ~/Downloads/RegoLook && ./install.sh
