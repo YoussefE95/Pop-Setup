@@ -20,4 +20,4 @@ rsync -a .bashrc .config ~/
 mkdir ~/.py
 
 # install regolith and themes
-git clone http://github.com/YoussefE95/RegoLook ~/Downloads/RegoLook && cd ~/Downloads/RegoLook && ./install.sh
+git clone http://github.com/YoussefE95/RegoLook ~/Downloads/RegoLook && cd ~/Downloads/RegoLook
